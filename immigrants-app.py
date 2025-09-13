@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv("/Users/celinaradwan2004/Desktop/MSBA/Célina-Radwan_Data-Visualization/8080fb0ab00e5cf690059cfbbdd239a4_20241009_172125_updated.csv")
+df = pd.read_csv("immigrants-data.csv")
 
 st.header("Drill down your preferences!", divider = "rainbow")
 
